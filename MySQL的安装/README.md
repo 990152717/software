@@ -1,5 +1,5 @@
 安装流程
-1. https://dev.mysql.com/downloads/repo/yum/下载rpm源包
+1. https://dev.mysql.com/downloads/repo/yum/ 下载rpm源包
 2. sudo yum localinstall platform-and-version-specific-package-name.rpm 安装rpm
 3. sudo yum install mysql-community-server 安装mysql
 4. sudo service mysqld start 启动mysql

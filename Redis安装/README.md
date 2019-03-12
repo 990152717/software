@@ -6,7 +6,7 @@
 5. make install PREFIX=/usr/local/redis;
 6. 复制配置文件,在解压目录下有一个redsis.config文件,复制到/usr/local/redis/etc目录下;
 
-# Redis配置
+# Redis配置文件
 * 设置外网访问
 在 Linux 中安装了Redis 服务，当在客户端通过远程连接的方式连接时，报could not connect错误。
 错误的原因很简单，就是没有连接上redis服务，由于redis采用的安全策略，默认会只准许本地访问。

@@ -34,6 +34,6 @@ daemonize yesdaemonize yes
 # Redis命令
 首先进入redis的bin目录
 * 启动
-./redis-server <redis etc config path>
+./redis-server < redis etc config path >
 * client连接
-./redis-client -h <host> -p <port> -a <password>
+./redis-client -h < host > -p < port > -a < password >

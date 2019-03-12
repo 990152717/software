@@ -12,13 +12,13 @@
 错误的原因很简单，就是没有连接上redis服务，由于redis采用的安全策略，默认会只准许本地访问。
 需要通过简单配置，完成允许外网访问。
 修改redis的配置文件，将所有bind信息全部屏蔽。
-#&asp;bind 192.168.1.100 10.0.0.1
-#&asp;bind 192.168.1.8
-#&asp;bind 127.0.0.1
+#&nbsp;bind 192.168.1.100 10.0.0.1
+#&nbsp;bind 192.168.1.8
+#&nbsp;bind 127.0.0.1
 
-*设置密码
-1. 配置文件修改 requirepass Bdsk@123;
-2. 命令修改临时生效 config set requirepass Bdsk@123;
+* 设置密码
+* 配置文件修改 requirepass Bdsk@123;
+* 命令修改临时生效 config set requirepass Bdsk@123;
 
 * 端口开放
 修改Linux的防火墙(iptables),开启你的redis服务端口,redis默认是6379。
@@ -31,7 +31,7 @@ daemonize yesdaemonize yes
 
 修改完成后需要重新启动redis服务。
 
-## Redis命令
+# Redis命令
 首先进入redis的bin目录
 * 启动
 ./redis-server <redis etc config path>

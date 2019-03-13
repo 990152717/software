@@ -16,11 +16,11 @@
 #&nbsp;bind 192.168.1.8  
 #&nbsp;bind 127.0.0.1  
 
-* 设置密码  
-1. 配置文件修改 requirepass Bdsk@123;
-2. 命令修改临时生效 config set requirepass Bdsk@123;
+* 设置密码
+1. 配置文件修改 requirepass < password >;
+2. 命令修改临时生效 config set requirepass < password >;
 
-* 端口开放  
+* 端口开放
 修改Linux的防火墙(iptables),开启你的redis服务端口,redis默认是6379。
 命令：/sbin/iptables -I INPUT -p tcp --dport 6379 -j ACCEPT
 保存防火墙修改命令：/etc/rc.d/init.d/iptables save

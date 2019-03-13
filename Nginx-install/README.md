@@ -10,7 +10,6 @@
 7. 进入安装目录的sbin下(/usr/local/nginx/sbin)
 8. 启动nginx ./nginx -c /usr/local/nginx/conf/nginx.conf
 
-链接地址:
-<br/>
-https://blog.csdn.net/tangyaliang11/article/details/78675535
+链接地址:  
+https://blog.csdn.net/tangyaliang11/article/details/78675535  
 https://blog.csdn.net/yougoule/article/details/78186138

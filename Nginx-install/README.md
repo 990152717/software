@@ -1,4 +1,4 @@
-# 安装步骤
+﻿# 安装步骤
 1. 下载nginx压缩包  解压tar –zxvf -C /xxx解压到指定临时安装目录
 2. mkdir -p /usr/local/nginx 创建安装目录
 3. 安装依赖:  

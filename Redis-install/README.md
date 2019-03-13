@@ -37,5 +37,3 @@ daemonize yesdaemonize yes
 ./redis-server < redis etc config path >
 * client连接
 ./redis-client -h < host > -p < port > -a < password >
-
-save
